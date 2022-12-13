@@ -1,0 +1,139 @@
+
+
+/* GENERAL */
+html {
+     box-sizing: border-box;
+     height: 100%;
+     scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+     box-sizing: inherit;
+}
+
+body {
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+     padding: 0;
+     margin: 0;
+     font-family: "Outfit", "Arial", sans-serif;
+     background-color: hsl(217, 54%, 11%);
+}
+
+img {
+     max-width: 100%;
+     height: auto;
+}
+
+main {
+     display: flex;
+     height: 100vh;
+     width: 100%;
+}
+
+.container {
+     display: flex;
+     margin: auto;
+}
+
+.card {
+     width: 350px;
+     height: auto;
+     background-color: hsl(216, 50%, 16%);
+     box-shadow: 0px 13px 15px -4px rgba(0,0,0,0.75);
+     border-radius: 15px;
+     padding: 22px;
+}
+
+.card-image {
+     margin-top: 0;
+     margin-bottom: 15px;
+}
+
+.card-image img {
+     border-radius: 10px;
+}
+
+.content-top {
+     margin-top: 0;
+     margin-bottom: 30px;
+}
+
+.content-top h2 {
+     color: hsl(0, 0%, 100%);
+     margin-top: 0;
+     margin-bottom: 15px;
+}
+
+.content-top p {
+     margin-top: 0;
+     margin-bottom: 20px;
+     font-weight: 300;
+     font-size: 18px;
+     color: hsl(215, 51%, 70%);
+}
+
+.price {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 0;
+     margin-bottom: 0;
+}
+
+.eth-price {
+     display: flex;
+     align-items: center;
+}
+
+.eth-price span {
+     margin-left: 8px;
+     color: hsl(178, 100%, 50%);
+}
+
+.offer-end {
+     display: flex;
+     align-items: center;
+}
+
+.offer-end span {
+     margin-left: 8px;
+     color: hsl(215, 51%, 70%);
+}
+
+.content-bottom {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     border-top: 1px solid hsl(215, 32%, 27%);
+     padding: 15px 0px 5px 0px;
+}
+
+.bottom-img {
+     background-color: #fff;
+     padding: 1px;
+     border-radius: 50%;
+}
+
+.bottom-img img {
+     display: block;
+     width: 35px;
+     height: 35px;
+     border-radius: 50%;
+}
+
+.bottom-text {
+     margin-left: 18px;
+}
+
+.bottom-text p {
+     color: hsl(215, 51%, 70%);
+}
+
+.bottom-text p span {
+     color: hsl(0, 0%, 100%);
+}
