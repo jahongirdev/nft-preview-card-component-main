@@ -68,6 +68,11 @@ main {
      margin-bottom: 15px;
 }
 
+.content-top h2:hover {
+     color:hsl(178, 100%, 50%);
+     cursor: pointer;
+}
+
 .content-top p {
      margin-top: 0;
      margin-bottom: 20px;
@@ -136,4 +141,9 @@ main {
 
 .bottom-text p span {
      color: hsl(0, 0%, 100%);
+}
+
+.bottom-text p span:hover {
+     color:hsl(178, 100%, 50%);
+     cursor: pointer;
 }
